@@ -1,3 +1,186 @@
-.container{
+* {
+    font-family: "Heebo";
+}
+
+.nav-blog {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-top: 27px;
+}
+
+.nav-blog a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.burger-menu-blog {
+    display: none;
+}
+
+.nav-blog .red {
+    color: #FF6464;
+    margin-right: 5px;
+}
+
+.middle-blog {
+    margin-left: 350px;
+    margin-right: 235px;
+    margin-top: 106px;
+}
+
+.middle-blog h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.middle-blog h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: -8px;
+}
+
+.middle-blog .date-blog {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.middle-blog .kind-blog {
+    margin-left: 159px;
+    margin-top: -49px;
+    color: #8695a4;
+    font-weight: 400;
+    font-size: 20px;
     
+}
+
+.middle-blog .kind2-blog {
+    display: none;
+}
+
+.middle-blog .date-blog svg {
+    margin-left: 20px;
+    margin-bottom: -4px;
+}
+
+.middle-blog .descr-blog {
+    font-size: 16px;
+    font-weight: 400;
+    color: #21243D;
+    width: 682px;
+}
+
+.footer-blog .socials-blog {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.socials-blog svg {
+    margin-right: 35px;
+}
+
+.footer-blog p {
+    margin-left: 583px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.footer-blog .copyr2-blog {
+    display: none;
+}
+
+@media (max-width:375px) {
+    .nav-blog a {
+        display: none;
+    }
+    
+    .menu-blog {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .burger-menu-blog {
+        display: block;
+        margin-right: -50px;
+        margin-top: -10px;
+    }
+    
+    .middle-blog {
+        width: 339px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .middle-blog h1 {
+        font-size: 30px;
+        margin-top: -60px;
+    }
+
+    .middle-blog h2 {
+        font-size: 26px;
+        margin-top: -25px;
+        
+    }
+
+    .middle-blog .date-blog  {
+        font-size: 16px;
+        display: flex;
+        color: #21243D;
+    }
+
+    .middle-blog .kind-blog {
+        display: none;
+    }
+
+   .middle-blog .kind2-blog {
+        display: block;
+        color: #8695a4;
+        font-weight: 400;
+        margin-left: 130px;
+        margin-top: -40px;
+   }
+
+   .middle-blog .date-blog svg {
+        height: 13px;
+        margin-top: 5px;
+   }
+
+    .middle-blog .descr-blog {
+        margin-top: 17px;
+        font-size: 16px;
+        width: 339px;
+    }
+
+    .hr {
+        margin-bottom: 30px;
+        width: 329px;
+    }
+
+    .footer-blog .socials-blog .fb2-blog {
+        margin-left: 32px;
+    }
+
+    .footer-blog .socials-blog svg {
+        margin-top: -33px;
+    }
+
+    .footer-blog .copyr-blog {
+        display: none;
+    }
+
+    .footer-blog .copyr2-blog {
+        display: block;
+        margin-left: 66px;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 22px;
+        
+    }
 }
