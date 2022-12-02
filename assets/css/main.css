@@ -60,6 +60,9 @@ p {
 body{
    font-family: 'Heboo';
 }
+.menus{
+   display: none;
+}
  .navbar a{
     position: relative;
     left: 800px;
@@ -570,42 +573,127 @@ color: #21243d;
    }
 }
  @media (min-width: 0px) and (max-width: 375px){
+ .menus{
+   display: block;
+   left: -830px;
+   top: 20px;
+   position: relative;
+ }
+ .detail-title h2{
+   left: 25px;
+   width: 350px;
+   font-size: 24px;
+   font-weight: 20px;
+   position: relative;
+ }
+ .detail-date{
+   left: 25px;
+   position: relative;
+ }
+ .detail-text p{
+   left: 90px;
+   width: 250px;
+   position: relative;
+   font-size: 17px;
+ }
+ .detail-content{
+  left: 25px; 
+  width: 339px;
+ }
+ .detail-content p{
+font-size: 17px;
+ }
+ .detail-image{
+   left: 25px;
+ }
+ .detail-image img{
+   width: 330px;
+ }
+ .detail-title h3{
+   left: 25px;
+ }
+ .detail-heading h4{
+   left: 25px;
+ }
+ .footer-image .fb{
+   left: -5px;
+   top: -25px;
+ }
+ .footer-image .inst{
+   left: 15px;
+   top: -25px;
+ }
+ .footer-image .twit{
+   left: 35px;
+   top: -26px;
+ }
+ .footer-image .link{
+   left: 55px;
+   top: -25px;
+ }
+ .footer-content p{
+   left: 85px;
+   top: -90px;
+   font-size: 13px;
+ }
  .container{
    max-width: 375px;
  }
  .navbar{
    display: none;
-
  }
  .burger{
    display: flex;
    justify-content: flex-end;
-
  }
  .menu{
    display: block;
- }
- .resume .img{
-   margin-right: 101px;
-   margin-top: 83px;
+   left: -680px;
+   top: 20px;
    position: relative;
  }
- .resume .contacts h1{
-   font-size: 32px;
-   font-weight: 700px;
-   line-height: 40px;
+ .resume .img{
+   left: 61px;
+   top: -663px;
+   position: relative;
  }
- .contacts h1{
-   width: 312px;
-   height: 120px;
-   margin-left: 32px;
-   margin-top: 297px;
+ .contacts{
+   left: -220px;
+   top: 140px;
+   font-size: 20px;
+   text-align: center;
+   position: relative;
  }
  .contacts-content p{
    width: 320px;
    height: 69px;
-   margin-left: 24px;
-   margin-top: 438px;
+left: 24px;
+   top: -670px;
+   text-align: center;
+   position: relative;
  }
+ .btn button{
+   top: 160px;
+   left: -100px;
+   position: relative;
+ }
+ .recent-posts{
+   top: -600px;
+ }
+ .recent-title h4{
+   left: -50px;
+   position: relative;
+ }
+.recent-contet a{
+   display: none;
+}
+.container-1{
+   left: 10px;
+   width: 330px;
+}
+.container-1 .title h3{
+   font-size: 22px;
+   left: 10px;
+}
  }
 
